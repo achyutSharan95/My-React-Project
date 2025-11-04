@@ -3,14 +3,14 @@ import SideBar from "../common/component/SideBar";
 
 function RootLayout() {
   return (
-    <div>
-      <header>Header</header>
+    <>
+      <div className="flex">  
       <SideBar />
       <main>
-        <Outlet /> {/* Nested routes render here */}
+        <Outlet />
       </main>
-      <footer>Footer</footer>
-    </div>
+      </div>
+    </>
   );
 }
 
