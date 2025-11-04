@@ -1,1 +1,24 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.oracle-font {
+  font-family: "Public Sans", sans-serif;
+}
+.alpina-font {
+  font-family: "Spectral", serif;
+}
+
+body {
+  @apply bg-[#FAF3EA] font-[oracle-font];
+}
+
+.sidebar-collapsed {
+  @apply absolute p-[10px] left-[4px] bg-[#EBE1D3] rounded-[4px] opacity-0 hover:opacity-100 transition-opacity duration-300; 
+}
+
+.sideBar.expend a {
+  @apply justify-center;
+  img {
+  @apply mr-0;
+
+}}

@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Chat = ({text}) => {
+const Chat = () => {
   return (
     <div>
-      <h3 className='text-red-600'>Chat {text}</h3>
+      <h3>Chat</h3>
     </div>
   )
 }
