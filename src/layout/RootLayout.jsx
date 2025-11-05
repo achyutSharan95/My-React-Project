@@ -1,14 +1,13 @@
 import { Outlet } from "react-router-dom";
-import SideBar from "../common/component/SideBar";
-
+import SideBar from "../common/component/SideBar.jsx";
 function RootLayout() {
   return (
     <>
-      <div className="flex">  
-      <SideBar />
-      <main>
-        <Outlet />
-      </main>
+      <div className="flex">
+        <SideBar />
+        <main className="flex-1">
+          <Outlet />
+        </main>
       </div>
     </>
   );

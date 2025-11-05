@@ -1,3 +1,5 @@
+
+
 const Images = {
   PiLogo: '/PiLogo.svg',
   Discover: '/Discover.svg',
@@ -5,6 +7,7 @@ const Images = {
   MyStuff: '/MyStuff.svg',
   NewChat: '/NewChat.svg',
   SideBarToggle: '/SideBarToggle.svg',
+  SettingsIcon: '/Settings.svg',
 };
 
 export default Images;
