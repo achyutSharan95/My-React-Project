@@ -8,6 +8,7 @@ const Images = {
   NewChat: '/NewChat.svg',
   SideBarToggle: '/SideBarToggle.svg',
   SettingsIcon: '/Settings.svg',
+  Arrow: '/Arrow.svg',
 };
 
 export default Images;

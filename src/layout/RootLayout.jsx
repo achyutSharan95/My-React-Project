@@ -5,7 +5,7 @@ function RootLayout() {
     <>
       <div className="flex">
         <SideBar />
-        <main className="flex-1">
+        <main className="flex-1 px-4">
           <Outlet />
         </main>
       </div>
